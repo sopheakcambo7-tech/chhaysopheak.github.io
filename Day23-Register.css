@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed" 
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    background: url(https://static.vecteezy.com/system/resources/previews/022/603/648/non_2x/blue-mountain-landscape-background-morning-view-mountains-flat-mountains-background-vector.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.form-box {
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(225, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+h2, p{
+    text-align: center;
+}
+h2{
+    color: rgb(3, 57, 142);
+}
+p{
+    font-size: 13px;
+    color: rgb(25, 57, 109);;
+}
+.inputbox{
+    position: relative;
+    width: 310px;
+    margin: 30px 0px;
+    border-bottom: 2px solid rgb(0, 250, 250);
+}
+.inputbox label{
+    position: absolute;
+    top: 70%;
+    left: 5px;
+    transform: translateY(-90%);
+    color: #ffffff;
+    font-size: 1em;
+    pointer-events: none;
+   transition: 1s
+}
+input:focus~label,
+input:valid~label {
+
+top: -10px;
+}
+
+.inputbox input{
+    width: 100%;
+    height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 0px 35px 0px 5px;
+    color: #192e2c;
+}
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    bottom: 2px;
+    font-size: 25px;
+    color: rgb(0, 250, 250);
+}
+.forgot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin: -15px 0 15px;
+    color: rgb(0, 122, 209);
+}
+.forgot a{
+    text-decoration: none;
+    margin-left: 5px;
+    color: rgb(214, 60, 13);
+}
+.forgot a:hover{
+    color: rgb(14, 175, 255);
+    text-decoration: underline;
+}
+button{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(16, 105, 160);
+    font-size: 18px;
+    font-weight: bold;
+    color: seashell;
+    cursor: pointer;
+}
+.register p, a{
+    text-align: center;
+    font-size: 14px;
+    color: rgb(0, 122, 209);
+}
+.register a{
+    color: rgb(2, 230, 255);
+}
+.register a:hover{
+    text-decoration: none;
+    color: rgb(14, 175, 255)
+}

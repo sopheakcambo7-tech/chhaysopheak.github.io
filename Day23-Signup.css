@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed";
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ /* min-height: 100vh;
+ width: 100%; */
+
+}
+.background-img{
+  position: absolute;
+  width: 100%;
+  height: 800px;
+ display: flex;
+ justify-content: center;
+  background-image: url(D:\CHHAY SOPHEAK\LEANING HTML\Background web\Login.jpg) ;
+  background-position: center;
+  background-size: cover;
+}
+.form-box {
+  position: relative;
+  width: 400px;
+  height: 500px;
+  background: transparent;
+  border: 2px solid rgba(225, 255, 255, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.user-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+h2,
+p {
+  text-align: center;
+}
+h2 {
+  color: rgb(3, 57, 142);
+}
+p {
+  font-size: 13px;
+  color: rgb(25, 57, 109);
+}
+.inputbox {
+  position: relative;
+  width: 310px;
+  margin: 30px 0px;
+  border-bottom: 2px solid rgb(0, 250, 250);
+}
+.inputbox1 label {
+  position: absolute;
+  top: 70%;
+  left: 5px;
+  transform: translateY(-90%);
+  color: #ffffff;
+  font-size: 1em;
+  pointer-events: none;
+  transition: 1s;
+}
+.inputbox label {
+  position: absolute;
+  top: 70%;
+  left: 5px;
+  transform: translateY(-90%);
+  color: #ffffff;
+  font-size: 1em;
+  pointer-events: none;
+  transition: 1s;
+}
+input:focus ~ label,
+input:valid ~ label {
+  top: -10px;
+}
+.inputbox1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0px 30px 0px;
+}
+.box-first {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 150px;
+
+  border-bottom: 2px solid rgb(0, 250, 250);
+}
+.box-last {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 150px;
+
+  border-bottom: 2px solid rgb(0, 250, 250);
+}
+.inputbox1 input {
+  width: 100%;
+  height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  padding: 0px 5px 0px 5px;
+  color: #192e2c;
+}
+.inputbox input {
+  width: 100%;
+  height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  padding: 0px 35px 0px 5px;
+  color: #192e2c;
+}
+.inputbox ion-icon {
+  position: absolute;
+  right: 8px;
+  bottom: 2px;
+  font-size: 25px;
+  color: rgb(0, 250, 250);
+}
+
+button {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(16, 105, 160);
+  font-size: 18px;
+  font-weight: bold;
+  color: seashell;
+  cursor: pointer;
+}
+.Login p,
+a {
+  text-align: center;
+  font-size: 14px;
+  color: rgb(0, 122, 209);
+}
+.Login a {
+  color: rgb(2, 230, 255);
+}
+.Login a:hover {
+  text-decoration: none;
+  color: rgb(14, 175, 255);
+}
